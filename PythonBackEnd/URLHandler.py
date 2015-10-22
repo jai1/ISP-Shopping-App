@@ -10,9 +10,21 @@ from models import *
 
 class URLHandler(webapp2.RequestHandler):
     def get(self):
-        print self.request
-
-
-
+        queryType=self.request.getattr("QueryType")
+		
+		if queryType == "Ping":
+			query = Ping.query()
+		elif queryType == "DNSLookup":
+			query = DNSLookUp.query()
+		elif queryType == "TCPSpeedTest":
+			query = TCPSpeedTest.query()
+		
+		dataSet = query.fetch(10)
+		
+		for record in dataSet:
+			"""
+			Do Something
+			"""
+			
 app = webapp2.WSGIApplication([
 	("/", URLHandler),], debug = True)

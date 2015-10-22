@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\res"><file name="bubble_mask" path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\res\drawable-xhdpi\bubble_mask.9.png" qualifiers="xhdpi" type="drawable"/><file name="bubble_shadow" path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\res\drawable-xhdpi\bubble_shadow.9.png" qualifiers="xhdpi" type="drawable"/><file name="bubble_mask" path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\res\drawable-xxhdpi\bubble_mask.9.png" qualifiers="xxhdpi" type="drawable"/><file name="bubble_shadow" path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\res\drawable-xxhdpi\bubble_shadow.9.png" qualifiers="xxhdpi" type="drawable"/><file name="text_bubble" path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\res\layout\text_bubble.xml" qualifiers="" type="layout"/><file path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\res\values\ids.xml" qualifiers=""><item name="text" type="id"/></file><file path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\res\values\styles.xml" qualifiers=""><style name="ClusterIcon.TextAppearance" parent="android:TextAppearance">
+        <item name="android:textColor">#ffeeeeee</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style><style name="Bubble.TextAppearance.Dark" parent="android:TextAppearance.Medium">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff7f7f7f</item>
+    </style><style name="Bubble.TextAppearance.Light" parent="Bubble.TextAppearance.Dark">
+        <item name="android:textColor">#ffeeeeee</item>
+    </style></file></source><source path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\build\generated\res\rs\debug"/><source path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\Jai\Documents\GitHub\MobilyzerApp\maps-utils\src\debug\res"/></dataSet><mergedItems/></merger>

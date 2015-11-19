@@ -31,3 +31,8 @@ class CommonInfo(ndb.model):
 	carrier = ndb.StringProperty()
 	timeStamp = ndb.DateTimeProperty(auto_now_add = True)
 	networkType = ndb.StringProperty()
+
+
+"""
+	{"DataType": "Ping", "Result": 23.15, {"DataType": commonInfo, "testNumber" : 1, ....}}
+"""
